@@ -1,0 +1,47 @@
+Draw a bot test
+
+This test will verify if the button, “Draw”. Draws a random bot from the list and gives it to the user to play with.
+
+STEPS
+
+-clicks the draw button
+-draws a bot 
+-adds bot to users roster
+
+Test postconditions 
+-user can use the bot to play with 
+-user roster should change from 0 bots to 1 bot 
+
+
+
+
+Remove a bot bug
+
+This test will verify when you remove a bot, the bot will go back to choices.
+
+STEPS
+
+-removes the bot
+-bot gets removed from the users roster
+-bot goes back to choices for other users to draw
+
+Test postconditions
+-there is no remove bot button 
+
+
+
+
+‘Duel’ button test
+
+This test will verify that the ‘duel’ button works 
+
+STEPS
+
+-user clicks on ‘duel’
+-button takes user in a duel match 
+-duel starts 
+-user is in a duel match with a computer
+
+Test postconditions 
+-duel button works 
+-duel takes user in a game
